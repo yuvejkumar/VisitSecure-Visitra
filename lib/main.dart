@@ -664,7 +664,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   final ImagePicker _picker = ImagePicker();
   
   // IMPORTANT: PUT YOUR API KEY HERE
-  final String apiKey = 'AIzaSyCs_X7wL46_CqKCLloJXYHrroJL4Bp1DUo'; 
+  final String apiKey = 'yourapi'; 
 
   @override
   void initState() {
