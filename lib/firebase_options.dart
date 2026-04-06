@@ -25,9 +25,15 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
-        return windows;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -40,49 +46,4 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAViKsW9Cp739-5zhf8j4rjR1BsDeT3-34',
-    appId: '1:452740244497:web:82dd71c7428b4bcee77db0',
-    messagingSenderId: '452740244497',
-    projectId: 'sanchari-app-a2d2d',
-    authDomain: 'sanchari-app-a2d2d.firebaseapp.com',
-    storageBucket: 'sanchari-app-a2d2d.firebasestorage.app',
-    measurementId: 'G-96FL91MY3V',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA4eTBiqiQemvUW3TS7X1n7NNpO_10n7ag',
-    appId: '1:452740244497:android:9f64b9ab58ffe551e77db0',
-    messagingSenderId: '452740244497',
-    projectId: 'sanchari-app-a2d2d',
-    storageBucket: 'sanchari-app-a2d2d.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDdcDV8HuW7ILqrwaclxTV9P-T6kz4QU70',
-    appId: '1:452740244497:ios:87aaae35479ca7c3e77db0',
-    messagingSenderId: '452740244497',
-    projectId: 'sanchari-app-a2d2d',
-    storageBucket: 'sanchari-app-a2d2d.firebasestorage.app',
-    iosBundleId: 'com.example.sanchariApp',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDdcDV8HuW7ILqrwaclxTV9P-T6kz4QU70',
-    appId: '1:452740244497:ios:87aaae35479ca7c3e77db0',
-    messagingSenderId: '452740244497',
-    projectId: 'sanchari-app-a2d2d',
-    storageBucket: 'sanchari-app-a2d2d.firebasestorage.app',
-    iosBundleId: 'com.example.sanchariApp',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAViKsW9Cp739-5zhf8j4rjR1BsDeT3-34',
-    appId: '1:452740244497:web:a51acbd59726b225e77db0',
-    messagingSenderId: '452740244497',
-    projectId: 'sanchari-app-a2d2d',
-    authDomain: 'sanchari-app-a2d2d.firebaseapp.com',
-    storageBucket: 'sanchari-app-a2d2d.firebasestorage.app',
-    measurementId: 'G-GJJ425PN14',
-  );
-}
+  //paste you firebase api key here
