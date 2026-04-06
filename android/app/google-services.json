@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452740244497",
+    "project_id": "sanchari-app-a2d2d",
+    "storage_bucket": "sanchari-app-a2d2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452740244497:android:9f64b9ab58ffe551e77db0",
+        "android_client_info": {
+          "package_name": "com.example.sanchari_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4eTBiqiQemvUW3TS7X1n7NNpO_10n7ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
