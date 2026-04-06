@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # VisitSecure-Visitra
 This is a Flutter mobile app called Orientbell VMI (Visitor Management &amp; Inspection) built for Orientbell Tiles, a major Indian tile manufacturer.
 The app manages who enters and exits their factory plants, with four user roles:
