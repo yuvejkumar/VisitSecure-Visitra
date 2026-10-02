@@ -1179,7 +1179,7 @@ class _VisitorRegistrationScreenState extends State<VisitorRegistrationScreen> {
   String? _aiRecommendation;
 
   // IMPORTANT: PUT YOUR API KEY HERE
-  final String apiKey = 'AIzaSyCs_X7wL46_CqKCLloJXYHrroJL4Bp1DUo'; 
+  final String apiKey = ''; 
 
   final _purposes = ['Business Meeting', 'Vendor Meeting', 'Material Loading/Unloading', 'Job Interview', 'Audit', 'Product Demo', 'Delivery', 'Other'];
   final _plants = ['Plant 1 - Sikandrabad', 'Plant 2 - Dora', 'Plant 3 - Hoskote', 'Head Office - New Delhi'];
@@ -2530,7 +2530,7 @@ class _AdminAnalyticsState extends State<_AdminAnalytics> {
   String? _aiReport;
   
   // IMPORTANT: PUT YOUR API KEY HERE
-  final String apiKey = 'AIzaSyCs_X7wL46_CqKCLloJXYHrroJL4Bp1DUo'; 
+  final String apiKey = ''; 
 
   Future<void> _generateAiReport() async {
     setState(() => _isGeneratingReport = true);
